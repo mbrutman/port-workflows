@@ -1,6 +1,6 @@
 # portCreateRepo.yaml
 
-name: Scaffold a new service
+name: Scaffold a new service alt
 on:
   workflow_dispatch:
     inputs:
