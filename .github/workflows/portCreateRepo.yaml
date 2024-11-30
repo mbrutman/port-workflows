@@ -18,7 +18,7 @@ on:
 jobs:
   scaffold-service:
     env:
-      ORG_NAME: Port-Samples
+      ORG_NAME: mbrutman
     runs-on: ubuntu-latest
     steps:
       - uses: port-labs/cookiecutter-gha@v1.1.1
