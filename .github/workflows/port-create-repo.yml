@@ -15,7 +15,7 @@ jobs:
       ORG_NAME: mbrutman
     runs-on: ubuntu-latest
     steps:
-      - uses: port-labs/cookiecutter-gha@v1.1.1
+      - uses: port-labs/cookiecutter-gha@v1.2
         id: scaff
         with:
           portClientId: ${{ secrets.PORT_CLIENT_ID }}
